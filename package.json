@@ -1,0 +1,52 @@
+{
+  "name": "e03",
+  "version": "1.0.0",
+  "eslintConfig": {
+    "globals": {
+      "window": true,
+      "browser": true,
+      "node": true
+    }
+  },
+  "description": "",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest --verbose",
+    "dev": "nodemon",
+    "lint": "eslint ."
+  },
+  "author": "Stefano Confalone (AC9669)",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "connect-mongo": "^5.1.0",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.20.0",
+    "express-async-errors": "^3.1.1",
+    "express-session": "^1.18.1",
+    "http-status-codes": "^2.3.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.6.1",
+    "nodemon": "^3.1.4",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.26.0",
+    "@eslint/js": "^9.10.0",
+    "@types/bcrypt": "^5.0.2",
+    "@types/express": "^5.0.0",
+    "@types/jsonwebtoken": "^9.0.7",
+    "babel-plugin-transform-import-meta": "^2.2.1",
+    "eslint": "^9.10.0",
+    "globals": "^15.9.0",
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}

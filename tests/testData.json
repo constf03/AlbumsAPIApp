@@ -1,0 +1,49 @@
+[
+  {
+    "_id": {
+      "$oid": "66e1db3f92adc01b75d58c79"
+    },
+    "artist": "Steely Dan",
+    "title": "Aja",
+    "year": 1977,
+    "genre": "Jazz Rock",
+    "tracks": 7,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66e1db4192adc01b75d58c7b"
+    },
+    "artist": "Miles Davis",
+    "title": "Kind of Blue",
+    "year": 1959,
+    "genre": "Jazz",
+    "tracks": 5,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66e1e42a9518a3a527a679e5"
+    },
+    "artist": "Toto",
+    "title": "Toto IV",
+    "year": 1982,
+    "genre": "Pop",
+    "tracks": 10,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6722875a2bb052af107b1aa7"
+    },
+    "artist": "Armin Van Buuren",
+    "title": "A State of Trance 2008",
+    "year": 2008,
+    "genre": "Trance",
+    "tracks": 29,
+    "updatedAt": {
+      "$date": "2024-10-30T19:22:02.862Z"
+    },
+    "__v": 0
+  }
+]
