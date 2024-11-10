@@ -1,4 +1,4 @@
-import APIError from "../errors/apiError";
+import APIError from "../errors/apiError.js";
 import { StatusCodes } from "http-status-codes";
 
 export const errorHandlerMiddleware = (err, res) => {
