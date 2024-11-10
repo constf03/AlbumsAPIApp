@@ -46,7 +46,9 @@ const start = async () => {
   try {
     await connectMongoDB(process.env.MONGO_URI);
     console.log("Successfully estabilished connection to MongoDB");
-    app.listen(PORT, () => console.log(`Server listening on ${HOST}`));
+    app.listen(PORT, () =>
+      console.log(`Server listening on http://${HOST}:${PORT}`)
+    );
   } catch (error) {
     console.log(error);
   }
